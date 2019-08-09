@@ -1,0 +1,319 @@
+body {
+    background-color: #555;
+    background-image: url("/background.jpg");
+    font-family: arial, helvetica;
+    
+    background-size:100% 100%;
+      text-align: center;
+    min-height:900px; /* we will remove this later */
+}
+
+
+.logiIm {
+    width: 60%;
+    
+    
+}  
+
+.imhold{
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.navhold{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-bottom: 10px;
+    
+}
+
+.holder {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.topnav {
+    background-color: #ffffff;
+  overflow: none;
+  float: center;
+  margin-left: 220px;
+}
+
+
+.topnav a {
+    float: left;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.intro {
+    font-size: 30px;
+    font-family: rustico, arial;
+    text-shadow: 2px 2px black;
+    color: #ffffff;
+    
+}
+
+.row {
+    display: -webkit-flex;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.holder {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.large {
+    width: 55%;
+     background-image: url('/falconsstatue.jpeg');
+      background-repeat:no-repeat;
+    background-size:cover;
+    float: left;
+    padding:5px;
+    margin-left:10px;
+    height: 590px;
+}
+
+
+
+.large h2 {
+    margin-top: 120px;
+    margin-bottom: 2px;
+    font-size: 60px;
+    font-family: arial;
+    text-shadow: 2px 2px #ff0000;
+    color: #ffffff;
+}
+
+
+
+
+.myVideo1 {
+    width: 500px;
+    float: left;
+     padding:5px;
+     height: 500px;
+     margin-left:10px;
+     margin-bottom:2px;
+      margin-top: -60px;
+}
+
+.myVideo2 {
+    width: 500px;
+    float: left;
+     padding:5px;
+     height: 500px;
+     margin-left:10px;
+     margin-bottom:5px;
+     margin-top: -140px;
+}
+
+
+/* Style the footer */
+.footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.footer p{
+    color: #ffffff;
+}
+
+
+
+
+
+.grid-container {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+
+.item {
+  background-color: black;
+  text-align: center;
+  padding: 5px 0;
+ 
+}
+
+
+#itemsContainer {
+    width: 50%;
+    text-align: center;
+    
+    
+}
+
+
+.itemtitle {
+   display: block;
+    
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px
+    
+}
+
+
+.itemp {
+   display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+    font-size: 16px
+    
+}
+
+
+
+.pimage {
+    width: 75%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    
+}
+
+
+.button {
+    background-color: black;
+    font-family: rustico, arial; ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+#itemsContainer h2 {
+   display: block;
+    color: #555;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+    
+}
+
+
+#itemsContainer h1 {
+   display: block;
+    color: #555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+    
+}
+
+
+.itemhols {
+   margin: 10px;
+    
+    display: inline-block;
+    width: 100%;
+    
+    min-height: 30px;
+  
+   background-color: #ffffff;
+}
+
+
+
+
+
+
+.comments {
+    font-size: 30px;
+    font-family: rustico, arial;
+    text-shadow: 2px 2px black;
+    color: #ffffff;
+    
+}
+
+.thoughts {
+    font-size: 30px;
+    font-family: rustico, arial;
+    text-shadow: 2px 2px black;
+    color: #ffffff;
+    
+}
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+.formHold {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width:90%;
+}
+
